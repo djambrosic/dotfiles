@@ -1,33 +1,34 @@
 [global_config]
-  title_transmit_fg_color = "#f6f5f4"
-  title_transmit_bg_color = "#376a6d"
+  title_hide_sizetext = True
+  title_transmit_fg_color = "#deddda"
+  title_transmit_bg_color = "#a977db"
   title_receive_fg_color = "#2E3440"
   title_receive_bg_color = "#8FBCBB"
   title_inactive_fg_color = "#D8DEE9"
   title_inactive_bg_color = "#363636"
+  inactive_color_offset = 0.61
+  suppress_multiple_term_dialog = True
   always_split_with_profile = True
 [keybindings]
   split_horiz = <Alt>minus
   split_vert = <Alt>backslash
 [profiles]
   [[default]]
-    background_color = "#282828"
-    background_darkness = 0.95
-    background_type = transparent
+    background_color = "#282a36"
     cursor_shape = ibeam
-    cursor_color = "#7c6f64"
+    cursor_color = "#f8f8f2"
     font = JetBrainsMono NF 12
-    foreground_color = "#ebdbb2"
+    foreground_color = "#f8f8f2"
     scrollback_infinite = True
-    palette = "#181818:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    palette = "#262626:#e356a7:#42e66c:#e4f34a:#9b6bdf:#e64747:#75d7ec:#efa554:#7a7a7a:#ff79c6:#50fa7b:#f1fa8c:#bd93f9:#ff5555:#8be9fd:#ffb86c"
     use_system_font = False
+    background_image = None
 [layouts]
   [[default]]
-    [[[window0]]]
-      type = Window
-      parent = ""
-      size = 1500, 1000
     [[[child1]]]
-      type = Terminal
       parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
 [plugins]

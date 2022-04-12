@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
 
@@ -17,7 +18,7 @@ let g:airline_powerline_fonts = 1
 syntax on
 set nocompatible
 set wrap
-set number
+set number relativenumber
 set laststatus=2
 set ignorecase
 set showmatch
@@ -36,4 +37,4 @@ set showcmd
 set showmode
 set cursorline
 set background=dark
-colorscheme gruvbox
+colorscheme dracula

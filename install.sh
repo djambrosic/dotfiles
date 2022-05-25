@@ -117,7 +117,7 @@ function setupZsh()
     read ANSWER
 
     if [[ "$ANSWER" == "n" || "$ANSWER" == "N" ]]; then
-        return 1;
+        return 0;
     fi
 
     chsh -s $(which zsh) $USER

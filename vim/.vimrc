@@ -8,6 +8,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'joshdick/onedark.vim'
 
 call plug#end()
 
@@ -37,4 +38,4 @@ set showcmd
 set showmode
 set cursorline
 set background=dark
-colorscheme dracula
+colorscheme onedark

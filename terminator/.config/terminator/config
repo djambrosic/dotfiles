@@ -1,7 +1,7 @@
 [global_config]
   title_hide_sizetext = True
   title_transmit_fg_color = "#deddda"
-  title_transmit_bg_color = "#3584e4"
+  title_transmit_bg_color = "#686d74"
   title_receive_fg_color = "#2E3440"
   title_receive_bg_color = "#8FBCBB"
   title_inactive_fg_color = "#D8DEE9"
@@ -15,6 +15,8 @@
 [profiles]
   [[default]]
     background_color = "#1e2127"
+    background_darkness = 0.95
+    background_type = transparent
     cursor_shape = ibeam
     cursor_color = "#676c76"
     font = JetBrainsMono NF 12
@@ -28,6 +30,7 @@
     [[[child1]]]
       parent = window0
       type = Terminal
+      profile = default
     [[[window0]]]
       parent = ""
       type = Window

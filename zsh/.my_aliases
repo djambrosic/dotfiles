@@ -3,5 +3,5 @@ alias dev="bash dev"
 alias run_tests="bash run_tests"
 alias rshell="source ~/.zshrc"
 alias eshell="vim ~/.zshrc"
-
+alias ddump="scp rigel-remote:/home/git/dumps.tar ~/Downloads"
 
